@@ -22,20 +22,21 @@ This guide explains how to install Ollama, set up a local LLM (Large Language Mo
        If installation is successful, it will display the installed version.
 
 3. Download and Use a Model
-	Step 1: Pull a Model
+   >   Step 1: Pull a Model
 	To download the DeepSeek-R1 1.5B model, run:
 	ollama pull deepseek-r1:1.5b
 	This may take some time, depending on your internet speed.
-	Step 2: Verify Model Installation
+   
+   >   Step 2: Verify Model Installation
 	Run the following command:
 	ollama list
 	It should display deepseek-r1:1.5b in the list.
-4. Running Ollama Locally
-	Once the model is installed, you can test it by running:
+5. Running Ollama Locally
+	> Once the model is installed, you can test it by running:
 	ollama run deepseek-r1:1.5b
 	It will start an interactive chat session.
 
-5. Using Ollama in a C# Console App
+6. Using Ollama in a C# Console App
 Step 1: Create a New Console Application
 1) Open Command Prompt and navigate to your desired directory:
 	cd D:\Projects
